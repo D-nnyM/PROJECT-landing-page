@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .first-section,
 .footer {
@@ -25,10 +30,20 @@ body {
     align-items: flex-start;
 }
 
+.hero-image-box {
+    display: flex;
+    
+}
+
 .hero-content {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
+}
+
+.main-image-container {
+    max-width: fit-content;
+    max-height: auto;
 }
 
 .hero-button {
